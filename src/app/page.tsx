@@ -11,142 +11,142 @@ export default function Home() {
     <div className="w-full min-h-screen bg-[#F8FAFC] font-sans antialiased text-[#334155]">
       {/* Premium Header */}
       <header className="w-full sticky top-0 z-50 bg-[#FFFFFF]/80 backdrop-blur-md border-b border-[#E2E8F0]/50 transition-all duration-300">
-          <div className="max-w-[1500px] mx-auto px-8 h-20 flex items-center justify-between">
+        <div className="max-w-[1500px] mx-auto px-8 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group">
             <span className="w-4 h-4 rounded-full bg-[#D4AF37] border-2 border-[#0B1D3A] group-hover:scale-110 transition-transform duration-300 shadow-[0_0_10px_rgba(212,175,55,0.5)]"></span>
-           <span className="font-display text-2xl font-bold">ARTH SUTRA </span>
+            <span className="font-display text-2xl font-bold">ARTH SUTRA </span>
           </Link>
           <nav className="hidden xl:flex items-center gap-5 text-[15px] font-medium text-[#334155] whitespace-nowrap">
-  {/* Home */}
-  <Link
-    href="/"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Home
-  </Link>
-
-  {/* About */}
-  <Link
-    href="#about"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    About Us
-  </Link>
-
-  {/* Services Dropdown */}
-  <div className="relative group">
-    <button className="flex items-center gap-1 hover:text-[#1E3A8A] transition-colors">
-      Services
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-4 h-4 transition-transform group-hover:rotate-180"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M19 9l-7 7-7-7"
-        />
-      </svg>
-    </button>
-
-    <div className="absolute left-0 mt-3 w-64 bg-white rounded-xl shadow-2xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 py-2">
-
-      <Link href="#investments" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
-        Investments
-      </Link>
-
-      <Link href="#taxation" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
-        Taxation
-      </Link>
-
-      <Link href="#protection" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
-        Protection
-      </Link>
-
-      <Link href="#legal-consultant" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
-        Legal Consultant
-      </Link>
-
-      <Link href="#lending" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
-        Lending
-      </Link>
-
-      <Link href="#consulting-strategy" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
-        Consulting Strategy
-      </Link>
-
-      <Link href="#physical-share" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
-        Physical Share
-      </Link>
-    </div>
-  </div>
-
-  {/* Invest & Insure */}
-  <Link
-    href="#invest-insure"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Invest & Insure
-  </Link>
-
-  {/* Awards */}
-  <Link
-    href="#awards"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Awards
-  </Link>
-
-  {/* Blogs */}
-  <Link
-    href="#blogs"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Blogs
-  </Link>
-
-  {/* Team */}
-  <Link
-    href="#team"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Team
-  </Link>
-
-  {/* Gallery */}
-  <Link
-    href="#gallery"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Gallery
-  </Link>
-
-  {/* Testimonial */}
-  <Link
-    href="#testimonial"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Testimonial
-  </Link>
-
-  {/* Contact */}
-  <Link
-    href="#contact"
-    className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
-  >
-    Contact
-  </Link>
-</nav>
-          <div className="flex items-center gap-4">
-            <Link href="#services" className="hidden md:inline-flex items-center justify-center text-[#0B1D3A] font-semibold hover:text-[#1E3A8A] transition-colors text-sm">
-            Sign In
+            {/* Home */}
+            <Link
+              href="/"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Home
             </Link>
-            <Link href="#contact" className="inline-flex items-center justify-center rounded-full bg-[#0B1D3A] text-[#FFFFFF] px-6 py-2.5 text-sm font-semibold hover:bg-[#1E3A8A] transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5">
-            Sign Up
+
+            {/* About */}
+            <Link
+              href="#about"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              About Us
+            </Link>
+
+            {/* Services Dropdown */}
+            <div className="relative group">
+              <button className="flex items-center gap-1 hover:text-[#1E3A8A] transition-colors">
+                Services
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4 transition-transform group-hover:rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+
+              <div className="absolute left-0 mt-3 w-64 bg-white rounded-xl shadow-2xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 py-2">
+
+                <Link href="#investments" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
+                  Investments
+                </Link>
+
+                <Link href="#taxation" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
+                  Taxation
+                </Link>
+
+                <Link href="#protection" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
+                  Protection
+                </Link>
+
+                <Link href="#legal-consultant" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
+                  Legal Consultant
+                </Link>
+
+                <Link href="#lending" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
+                  Lending
+                </Link>
+
+                <Link href="#consulting-strategy" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
+                  Consulting Strategy
+                </Link>
+
+                <Link href="#physical-share" className="block px-5 py-3 hover:bg-blue-50 hover:text-[#1E3A8A]">
+                  Physical Share
+                </Link>
+              </div>
+            </div>
+
+            {/* Invest & Insure */}
+            <Link
+              href="#invest-insure"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Invest & Insure
+            </Link>
+
+            {/* Awards */}
+            <Link
+              href="#awards"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Awards
+            </Link>
+
+            {/* Blogs */}
+            <Link
+              href="#blogs"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Blogs
+            </Link>
+
+            {/* Team */}
+            <Link
+              href="#team"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Team
+            </Link>
+
+            {/* Gallery */}
+            <Link
+              href="#gallery"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Gallery
+            </Link>
+
+            {/* Testimonial */}
+            <Link
+              href="#testimonial"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Testimonial
+            </Link>
+
+            {/* Contact */}
+            <Link
+              href="#contact"
+              className="hover:text-[#1E3A8A] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[#D4AF37] after:transition-all hover:after:w-full"
+            >
+              Contact
+            </Link>
+          </nav>
+          <div className="flex items-center gap-4">
+            <Link href="/login" className="hidden md:inline-flex items-center justify-center text-[#0B1D3A] font-semibold hover:text-[#1E3A8A] transition-colors text-sm">
+              Sign In
+            </Link>
+            <Link href="/register" className="inline-flex items-center justify-center rounded-full bg-[#0B1D3A] text-[#FFFFFF] px-6 py-2.5 text-sm font-semibold hover:bg-[#1E3A8A] transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5">
+              Sign Up
             </Link>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default function Home() {
             {/* Text Content */}
             <div className="lg:col-span-7 max-w-2xl">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0B1D3A]/5 border border-[#0B1D3A]/10 text-[#0B1D3A] text-xs font-bold uppercase tracking-wider mb-8">
-                <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse"></span> 
+                <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse"></span>
                 FINANCIAL INTELLIGENCE • STRATEGIC GROWTH
               </div>
               <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[72px] leading-[1.1] font-black tracking-tight text-[#0B1D3A] mb-6">
@@ -185,7 +185,7 @@ export default function Home() {
             {/* Visual Balance Card Column (Fintech Dashboard Style) */}
             <div className="lg:col-span-5 relative w-full flex justify-center lg:justify-end mt-8 lg:mt-0">
               <div className="relative w-full max-w-[420px] bg-gradient-to-br from-[#0B1D3A] to-[#1E3A8A] text-[#FFFFFF] rounded-3xl p-8 flex flex-col justify-between shadow-[0_20px_50px_rgba(11,29,58,0.3)] border border-[#FFFFFF]/10 overflow-hidden group hover:-translate-y-2 transition-all duration-500">
-                
+
                 {/* Decorative Elements */}
                 <div className="absolute -top-32 -right-32 w-64 h-64 rounded-full bg-[#D4AF37]/20 blur-3xl group-hover:bg-[#D4AF37]/30 transition-all duration-700"></div>
                 <div className="absolute -bottom-24 -left-24 w-48 h-48 rounded-full bg-[#F8FAFC]/10 blur-2xl"></div>
@@ -234,7 +234,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         {/* Background Decorative Abstract Shapes */}
         <div className="absolute left-0 bottom-0 w-full h-1/2 bg-gradient-to-t from-[#F8FAFC] to-transparent -z-10"></div>
         <div className="absolute right-0 top-1/4 w-96 h-96 rounded-full bg-[#1E3A8A]/5 blur-3xl -z-10"></div>
